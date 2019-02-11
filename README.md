@@ -1,17 +1,16 @@
 # frontend-halfDay1
 
-### Count Button Clicks
+### Button Clicking Game
 
-#### Step 1
-1) Create an HTML page with the ```Score: 0``` in large letters.
-2) Add a button to that HTML page.
-3) Create a javascript page that will add 1 to the number when the HTML button is pressed.
+Create a game using keyboard or mouse clicks for two people to complete similar to the image attached. State who's in the lead, give them the option to choose the type of play style, and give them the option to toggle the background color in the game.
 
-#### Step 2
-1) Include another button to input a different score for player 2
-2) Include a reset button to reset the scores of both players.
+<hr>
+If you need more help use the steps below:
+1) Create an HTML page similar to the one attached using only HTML and CSS. This shouldn't take more than an hour. Ask for help if you didn't make much progress after 30mins.
+2) Use JavaScript to make the button 1 and 2 count the relating number above it.
+3) Make the middle area state who is in the lead. If the scores are the same, make it say "tie".
 
-#### Extra Credit
-1) Once either player reaches 5, stop the game.
-2) Display ```YOU WIN PLAYER (1/2)``` when one of the players reaches 5 clicks.
-3) Clear everything when the user hits reset.
+### Challenge
+4) Make keyboard and mouse options. Disable and stop events from happening when the option is not chosen.
+5) Toggle background colors on and off.
+6) Once a player reaches 15, alert the winner and restart the game.
